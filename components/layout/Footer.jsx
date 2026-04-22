@@ -38,17 +38,7 @@ export default function Footer() {
                         </p>
 
                         {/* Socials */}
-                        <div className="flex gap-5 mt-6 sm:mt-10 text-sm sm:text-base">
-                            <a href="#" className="text-gray-500 hover:text-teal-600">
-                                LinkedIn
-                            </a>
-                            <a href="#" className="text-gray-500 hover:text-teal-600">
-                                Twitter
-                            </a>
-                            <a href="#" className="text-gray-500 hover:text-teal-600">
-                                GitHub
-                            </a>
-                        </div>
+
                     </div>
 
                     {/* Links Section */}

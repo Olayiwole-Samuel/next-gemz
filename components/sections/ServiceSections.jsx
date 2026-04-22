@@ -9,28 +9,28 @@ const services = [
     {
         title: "Custom Development",
         description:
-            "We build tailored systems that match your workflow and eliminate inefficiencies.",
+            "We build tailored systems designed specifically around your business processes, eliminating inefficiencies and manual work. Every solution integrates seamlessly with your existing tools while remaining flexible enough to evolve as your operations grow and scale over time.",
         image:
             "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1000&q=80",
     },
     {
         title: "Performance Optimization",
         description:
-            "We improve speed, responsiveness, and efficiency for seamless user experience.",
+            "We analyze and refine your system to maximize speed, responsiveness, and efficiency. From reducing load times to optimizing backend processes, we ensure your platform delivers a smooth, reliable experience even during peak usage and high traffic conditions.",
         image:
             "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80",
     },
     {
         title: "Security & Compliance",
         description:
-            "We secure your platform and protect sensitive data against modern threats.",
+            "We implement robust security measures to safeguard your platform and protect sensitive data from modern threats. This includes encryption, access control, monitoring, and adherence to industry compliance standards to keep your systems resilient and trustworthy.",
         image:
             "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80",
     },
     {
         title: "Full Stack Solutions",
         description:
-            "We deliver scalable frontend + backend systems built for long-term growth.",
+            "We deliver complete frontend and backend solutions built for scalability and long-term performance. Our systems are structured to support growth, integrate new features effortlessly, and maintain stability as your business and user base expand.",
         image:
             "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1000&q=80",
     },
@@ -156,7 +156,7 @@ function TiltCard({ service, Icon, isActive, setActive, unsetActive }) {
 
             <motion.div
                 ref={cardRef}
-                className="relative h-[380px] sm:h-[420px] rounded-2xl overflow-hidden bg-white transition-all duration-300"
+                className="relative h-[420px] sm:h-[460px] rounded-2xl overflow-hidden bg-white transition-all duration-300"
                 style={{ transformStyle: "preserve-3d" }}
             >
                 {/* Glow effect */}

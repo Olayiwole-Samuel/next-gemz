@@ -1,9 +1,13 @@
-/** @type {import('next').NextConfig} */
+/** @type {{images: {domains: [string]}, devIndicators: {buildActivity: boolean}}} */
 const nextConfig = {
     images: {
         domains: ["images.unsplash.com"],
     },
-  /* config options here */
+    devIndicators: {
+        buildActivity: false,
+    },
+
+    /* config options here */
 };
 
 export default nextConfig;

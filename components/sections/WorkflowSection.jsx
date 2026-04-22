@@ -30,7 +30,6 @@ export default function WorkflowSection() {
     const [index, setIndex] = useState(0);
     const [particles, setParticles] = useState([]);
 
-    // ✅ FIX: generate random values ONLY on client
     useEffect(() => {
         const generated = [...Array(40)].map(() => ({
             width: Math.random() * 3 + 2,
@@ -60,8 +59,8 @@ export default function WorkflowSection() {
     };
 
     return (
-        <section className="relative py-16 sm:py-24 bg-[#0b1a14] text-white overflow-hidden">
-            {/* BACKGROUND DOTS (FIXED) */}
+        <section className="relative py-16 sm:py-24 bg-[#10231b] text-white overflow-hidden">
+            {/* BACKGROUND DOTS */}
             <div className="absolute inset-0 pointer-events-none">
                 {particles.map((p, i) => (
                     <motion.div
